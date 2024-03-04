@@ -7,6 +7,9 @@ function findMaxNumber(arr) {
   }
   return max;
   //   return Math.max(...arr);
+  //   'spread syntax' / 'spread operator'
+  // const arr1 = [1, 2, 3];
+  // const arr2 = [...arr1, 4, 5, 6]; // arr2 will be [1, 2, 3, 4, 5, 6]
 }
 
 console.log(findMaxNumber([1, 2, 3, 4, 5, 6, 7, 8, 9, 10]));
