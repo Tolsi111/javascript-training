@@ -24,3 +24,4 @@ function findMissingLetter2(arr) {
 }
 
 // indexOf, charCodeAt, String.fromCharCode
+module.exports = findMissingLetter;
